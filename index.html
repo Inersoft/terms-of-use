@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="https://inersoft.github.io/favicon.png" />
+  <title>Inersoft - Policy</title>
+</head>
+
+<body>
+
+<div class="terms">
+  <div class="image">
+    <img src="https://www.gstatic.com/identity/boq/policies/privacy/tos_main_illustration.svg">
+  </div>
+  <div class="title">Terms of Use </div>
+  <div class="info">In using our services, you must comply with the existing terms of service.  You may not take anything in the form of images or files.</div>
+</div>
+
+</body>
+</html>
+
+<style>
+
+* {
+  font-family: Roboto;
+}
+
+html, body {
+  padding: 0 8px;
+}
+
+.terms .title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.terms .info {
+  color: gray;
+  text-align: center;
+}
+
+.terms .image {
+  display: grid;
+  place-items: center;
+}
+
+.image img {
+  width: 250px;
+  pointer-events: none;
+}
+
+@media (min-width: 700px) {
+  .image img {
+    width: 300px;
+  }
+  .terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .terms .info {
+    max-width: 50%;
+  }
+}
+
+</style>
